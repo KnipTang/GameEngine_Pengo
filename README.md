@@ -1,18 +1,19 @@
-# Minigin
+# Pengo
 
-Minigin is a very small project using [SDL2](https://www.libsdl.org/) and [glm](https://github.com/g-truc/glm) for 2D c++ game projects. It is in no way a game engine, only a barebone start project where everything sdl related has been set up. It contains glm for vector math, to aleviate the need to write custom vector and matrix classes.
-
-[![Build Status](https://github.com/avadae/minigin/actions/workflows/msbuild.yml/badge.svg)](https://github.com/avadae/msbuild/actions)
-[![GitHub Release](https://img.shields.io/github/v/release/avadae/minigin?logo=github&sort=semver)](https://github.com/avadae/minigin/releases/latest)
+This remake of Pengo for the SEGA from 1982 has been developed in C++ using the self-made custom [KnipTang-GameEngine](https://github.com/KnipTang/KnipTang-Engine).
 
 # Goal
 
-Minigin can/may be used as a start project for the exam assignment in the course 'Programming 4' at DAE. In that assignment students need to recreate a popular 80's arcade game with a game engine they need to program themselves. During the course we discuss several game programming patterns, using the book '[Game Programming Patterns](https://gameprogrammingpatterns.com/)' by Robert Nystrom as reading material. 
-
-# Disclaimer
-
-Minigin is, despite perhaps the suggestion in its name, not a game engine. It is just a very simple sdl2 ready project with some of the scaffolding in place to get started. None of the patterns discussed in the course are used yet (except singleton which use we challenge during the course). It is up to the students to implement their own vision for their engine, apply patterns as they see fit, create their game as efficient as possible.
+Pengo was developed as a proof of operation of the [KnipTang-GameEngine](https://github.com/KnipTang/KnipTang-Engine).
 
 # Use
 
-Download the latest release of this project and compile/run in visual studio. Since students need to have their work on github too, they can use this repository as a template.
+Download the latest release of this project and compile/run in visual studio.
+
+The different Game Modes can be triggered by pressing 1 for Single Player, 2 for Co-Op, or 3 for Versus mode in the start menu.
+
+Pengo can be controlled by WASD and E for attack.
+The second player in Co-Op or Versus mode can be controlled by the arrow keys and RSHIFT for attack.
+Controller support has also been added for both players as an alternative to the keyboard controls.
+
+Sound can be muted/unmuted by pressing M.
